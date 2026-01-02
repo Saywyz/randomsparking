@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const stringDict = {
         1: ["Mr. Satan"],
-        2: ["Videl", "Master Roshi", "Master Roshi Max Power", "Chiaotzu", "Yajirobe", "Saibaman", "Guldo", "Frieza Soldier", "Spopovich"],
-        3: ["Cui", "Teen Goku", "Kid Gohan", "Krillin", "Yamcha", "Jeice", "Recoome", "Burter", "Pan", "Cell Jr.", "Raditz", "Babidi"],
-        4: ["Tapion", "Teen Gohan", "Uub", "Base Goten", "Bardock", "Captain Ginyu", "King Cold", "Dr. Gero", "Piccolo", "Super Garlic Jr.", "Turles", "Lord Slug", "Nail", "Future Trunks (Base)"],
-        5: ["Base Goku (Early)", "Base Vegeta (Early)", "Great Ape Vegeta", "Base Gotenks", "Super Baby Vegeta", "Frieza (1st Form)", "Frieza (2nd Form)", "Frieza (3rd Form)", "Cooler (Base)", "Android 13 (Base)", "BoJack", "Janemba (Base)"],
-        6: ["SSJ Goku (Early)", "SSJ Vegeta (Early)", "Future Trunks (SSJ)", "SSJ Gotenks", "SSJ Bardock", "SSJ Gohan (Teen)", "Frieza (Final Form)", "Cooler (Final Form)", "Super Perfect Cell", "Super Buu", "Majin Buu", "Buuhan", "Hirudegarn", "Super Janemba"],
-        7: ["SSJ Goku (Super)", "SSJ Vegeta (Super)", "SSJ Broly", "Kid Buu", "Buutenks", "Omega Shenron", "Syn Shenron", "Toppo", "SSJ Kefla", "SSJ2 Caulifla", "SSJ2 Kale"],
-        8: ["SSJ Blue Goku", "SSJ Blue Vegeta", "SSJ Rose Goku Black", "SSJ4 Goku", "SSJ4 Vegeta", "SSJ4 Gogeta", "Super Vegito", "SSJ Gotenks", "Super Saiyan Blue Gogeta", "God Toppo", "Jiren", "Anilaza"],
-        9: ["SSJ Broly (Full Power)", "SSJ God Goku", "SSJ God Vegeta", "SSJ Broly (Berserk)", "Fused Zamasu", "Merged Zamasu (Corrupted)", "Jiren (Full Power)"],
-        10: ["Beerus", "Whis", "Blue Vegito", "Blue Gogeta", "SSJ God Vegito"],
+        2: ["Videl", "Master Roshi", "Yajirobe", "Chiaotzu", "Saibaman", "Frieza Force Soldier", "Spopovich", "Babidi"],
+        3: ["Krillin", "Yamcha", "Tien", "Kid Gohan", "Guldo", "Cui", "Dodoria", "Zarbon", "Android 19", "Dr. Gero", "King Cold", "Nail", "Pan (GT)", "Botamo", "Magetta", "Ribrianne", "Kakunsa", "Roasie"],
+        4: ["Goku (Z - Early)", "Piccolo (Early)", "Vegeta (Z - Scouter)", "Nappa", "Raditz", "Bardock", "Ginyu", "Recoome", "Burter", "Jeice", "Android 16", "Android 17 (Z)", "Android 18", "Cell (1st Form)", "Frieza (1st Form)", "Frieza (2nd Form)", "Frieza (3rd Form)", "Garlic Jr.", "Turles", "Lord Slug", "Cooler", "Metal Cooler", "Bojack", "Zangya", "Bergamo", "Basil", "Lavender", "Caulifla", "Kale", "Cabba", "Frost", "Goten", "Trunks (Kid)", "Goku (Mini)"],
+        5: ["Goku (Z - Mid)", "Vegeta (Z - Early)", "Vegeta (Z - Mid)", "Trunks (Melee)", "Future Trunks", "Teen Gohan", "Piccolo (End)", "Android 17 (Super)", "Cell (2nd Form)", "Frieza (Final Form)", "Mecha Frieza", "Android 13", "Tapion", "Dabura", "Great Saiyaman", "Gotenks", "Goku (GT)", "Uub", "Baby Vegeta", "Master Roshi Max Power"],
+        6: ["Goku (Z - End)", "Goku (Super)", "Vegeta (Z - End)", "Vegeta (Super)", "Future Trunks (Super)", "Gohan (Adult)", "Majin Vegeta", "Perfect Cell", "Cell Jr.", "Majin Buu", "Super Buu", "Frieza (Super)", "Final Form Cooler", "Fusion Android 13", "Full Power Bojack", "Janemba", "Hirudegarn", "Super Baby 1", "Super Baby 2", "Majuub", "Dyspo", "Goku Black"],
+        7: ["Goku (Z - End) SS3", "Goku (Super) SS God", "Vegeta (Super) SS God", "Future Trunks (Super) SS Rage", "Super Buu (Gotenks Absorbed)", "Super Buu (Gohan Absorbed)", "Kid Buu", "Golden Frieza", "Super Janemba", "Great Ape Baby", "Syn Shenron", "Hit", "Toppo", "Kefla", "Goku Black Rose", "Broly (Z)", "Broly (Super)"],
+        8: ["Goku (Super) SS Blue", "Vegeta (Super) SS Blue", "Vegeta (Super) SS Blue Evolved", "Golden Frieza", "Fused Zamasu", "Jiren", "God Toppo", "Kefla (SS1)", "Anilaza", "Goku (GT) SS4", "Vegeta (GT) SS4", "Omega Shenron", "Broly (Z) LSSJ", "Broly (Super) SSJ"],
+        9: ["Goku (Super) UI Sign", "Broly (Super) Full Power", "Jiren (Full Power)", "Fused Zamasu (Corrupted)", "Gogeta (Super) SSJ", "Vegito (Super) SSJ", "Gogeta (GT) SS4", "Beerus"],
+        10: ["Goku (Super) Ultra Instinct", "Gogeta (Super) SS Blue", "Vegito (Super) SS Blue", "Whis"]
     };
 
     document.getElementById('add-cost').addEventListener('click', () => {
